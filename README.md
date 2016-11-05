@@ -25,6 +25,6 @@ This is a simple demonstration of HTML5 Speech API. The real scope of this featu
 
 Sample UI below
 
-<img src "/blob/master/demo.jpg?raw=true" /> 
+<img src "https://github.com/vipinmpd08/Innovation-Robo-Receptionist-HTML5/blob/master/demo.jpg?raw=true" ></img>
 
 Add your comments !
