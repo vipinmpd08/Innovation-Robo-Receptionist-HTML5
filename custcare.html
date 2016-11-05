@@ -453,8 +453,8 @@ function processVoice(currentTranscript) {
 			fromArp = arpMapping[currentTranscriptWords[currentTranscriptWords.length-3].toUpperCase()];
 			toArp = arpMapping[currentTranscriptWords[currentTranscriptWords.length-1].toUpperCase()];
 			if(fromArp && toArp) {
-				alert("Source: " +fromArp +", Dest: "+toArp);
-				//window.open('https://mobile.emirates.com/english/plan_book/flight_status/searchByFlightResults.xhtml?flightNumber='+currentTranscriptWords[currentTranscriptWords.length-1]);				
+				//alert("Source: " +fromArp +", Dest: "+toArp);
+				window.open('https://mobile.emirates.com/english/plan_book/flight_status/searchByFlightResults.xhtml?flightNumber='+currentTranscriptWords[currentTranscriptWords.length-1]);				
 			}
 			
 		} 
@@ -470,7 +470,7 @@ function processVoice(currentTranscript) {
 		} 		
 		else {
 			//alert(currentTranscript);
-			//speak('Sorry sir, that was not clear. Can you come again please?');
+			speak('Sorry sir, that was not clear. Can you come again please?');
 		}	
 	}
 }
