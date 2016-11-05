@@ -25,4 +25,4 @@ This is a simple demonstration of HTML5 Speech API. The real scope of this featu
 
 Sample UI below
 
-<img src "https://github.com/vipinmpd08/Innovation-Robo-Receptionist-HTML5/raw/master/demo.jpg" />
+<img src "https://github.com/vipinmpd08/Innovation-Robo-Receptionist-HTML5/blob/master/demo.jpg?raw=true" />
