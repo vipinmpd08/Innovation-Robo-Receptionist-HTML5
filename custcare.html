@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Emirates Customer Care</title>
+<title>Customer Care</title>
 <style>
   * {
     font-family: Verdana, Arial, sans-serif;
@@ -80,7 +80,7 @@
     padding: 0;
   }
 </style>
-<h1 class="center" id="headline"> Customer Care</h1>
+<h1 class="center" id="headline">Airport Customer Care</h1>
     	<img style="margin:0 25%;width:50%" src="virtual-receptionist-750x410.png" />
 	  </br>
 <div id="info">
@@ -432,20 +432,20 @@ function processVoice(currentTranscript) {
 		currentTranscriptText = currentTranscript.innerHTML;
 		//Can you here me
 		if(currentTranscriptText.indexOf("hello") > -1) {
-			//speak('Hello sir. I am listening.');
+			speak('Hello sir. I am listening.');
 			//alert(currentTranscript);
 			//final_span.innerHTML+="</br>Hello sir, how are you";
 		}
 		
 		//Can you here me
 		else if(currentTranscriptText.indexOf("hear") > -1) {
-			//speak('Yes boss, I can here you.');
+			speak('Yes boss, I can here you.');
 			//alert(currentTranscript);
 		}
 		
 		//For Search Activity
 		else if(currentTranscriptText.toUpperCase().indexOf("SEARCH") > -1) {
-			//speak('Yup, sure');
+			speak('Yup, sure sir !');
 			//alert(currentTranscript);
 			
 			//Get the source and destination
