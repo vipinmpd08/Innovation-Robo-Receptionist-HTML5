@@ -20,8 +20,11 @@ She: Opens you the status of respective flight
 # Scope
 
 This is a simple demonstration of HTML5 Speech API. The real scope of this feature is endless. Some are below.
+
 1. Speaking Robo - customer care app
+
 2. Implement in search engines
+
 3. Interactive feedback system
 
 
