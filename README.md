@@ -25,4 +25,4 @@ This is a simple demonstration of HTML5 Speech API. The real scope of this featu
 
 Sample UI below
 
-<img src "demo.jpg" />
+<img src "blob/master/demo.jpg" />
